@@ -10,6 +10,8 @@ npm install express
 
 npm install --save-dev nodemon  (autorefresh)
 
+npm i -g npm    (update npm daca nu se updateaza automat dupa nodejs install)
+
 
 facem un fisier server.js 
 
