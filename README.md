@@ -1,7 +1,5 @@
 # CursCSVREACT
 
-hai noroc
-
 git clone https://github.com/CPaduret/CursCSVREACT.git
 
 npm init -y 
@@ -51,3 +49,8 @@ npm run devStart
 
 dupa iti creezi index.html, .css, .js blabla
 
+git add . 
+git push origin main
+git status
+
+git commit -m "Tema 1"
