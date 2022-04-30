@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-bottom: 2px solid rgb(rgb(206, 117, 117), rgb(101, 196, 101), rgb(46, 46, 202));
+}
+
+head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head span {
+    font-size: 20px;
+    position: inherit;
+    margin-left: 50px;
+    color: red;
+}
+
+.head h4 {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: blueviolet;
+    font-weight: 200;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    background-color: antiquewhite;
+    border: 1px solid #eee;
+    margin: 30px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+}
+
+.text span {
+    padding: 5px;
+    color: rgb(48, 48, 99);
+    font-size: 0.8rem;
+}
+
+.text .titlu {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(56, 30, 30)
+}
+
+.text p {
+    color: rgb(128, 9, 45);
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 10px 20px 10px;
+}
+
+.text a {
+    color: rgb(39, 34, 34)
+}
+
+.text a:hover {
+    color: rgb(30, 221, 62);
+    transition: all ease 0.5s;
+}
+
+.button {
+    margin: 10px 20px 10px 20px;
+    box-shadow: inset 10px 20px 10px 20px red;
+    background: linear-gradient(to top, blue 10%, red 80%);
+    border-color: black;
+    border-radius: 10px;
+    border: 2px solid gray;
+    cursor: crosshair;
+    color: rgb(56, 30, 30);
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    text-shadow: 4px 8px 4px 8px blue;
+}
+
+.button:hover {
+    background: blanchedalmond;
+    background-color: aqua;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+}

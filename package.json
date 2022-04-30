@@ -1,0 +1,26 @@
+{
+    "name": "curscsvreact",
+    "version": "1.0.0",
+    "description": "hai noroc",
+    "main": "index.js",
+    "scripts": {
+        "devStart": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CPaduret/CursCSVREACT.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CPaduret/CursCSVREACT/issues"
+    },
+    "homepage": "https://github.com/CPaduret/CursCSVREACT#readme",
+    "dependencies": {
+        "express": "^4.18.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
